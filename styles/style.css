@@ -39,12 +39,11 @@ h3{
 body{
     background-color:#000c17;
 }
+
 .carousel-item img{
     height: 60rem;
     object-fit: cover;
- 
-
-}
+ }
   
 .contenedor{
     max-width: 800;
@@ -200,13 +199,14 @@ form button{
 }
 
 .galeria{
-display: flex;
-flex-direction: row;
-justify-content: center;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
 }
 .galeria img{
-    width: 33.33%;
-    
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
 }
 .datosDireccion{
     display: flex;
