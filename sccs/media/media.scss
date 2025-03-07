@@ -1,0 +1,24 @@
+@media (max-width:600px){
+    .contenedor{
+        flex-direction: column;
+    }
+    .imagenBody{
+        width: 100%;
+    }
+    .descripcion p{
+        font-size: 1.5rem;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .p{
+        flex-direction: column;
+    }
+    .reservas{
+        text-align: center;
+    }
+    .reservas form{
+       display: flex;
+       flex-direction: column;
+    }
+}

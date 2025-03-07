@@ -1,0 +1,19 @@
+body {
+    background-color: $colorPrimario;
+}
+
+h1, h2, h3 {
+    font-family: $fuenteSecundaria;
+    color: $colorSecundario;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 4rem;
+}
+

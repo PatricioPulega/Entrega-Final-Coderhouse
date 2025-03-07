@@ -1,0 +1,25 @@
+.datosDireccion {
+    text-align: center;
+    font-family: $fuentePrimaria;
+    @include background-image('../assets/entrada\ dia.jpg');
+}
+
+.datosLugar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    gap: 20px;
+
+    h2 {
+        color: $colorSecundario;
+    }
+
+    p {
+        color: $colorTexto;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+}

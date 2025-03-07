@@ -1,0 +1,27 @@
+.historia {
+    text-align: center;
+    max-width: 1000px;
+    height: 40rem;
+    margin: 0 auto;
+    padding: 30px;
+    line-height: 1.6;
+    font-size: 1.5rem;
+    color: $colorTexto;
+
+    p {
+        font-family: $fuentePrimaria;
+        margin-top: 5%;
+    }
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+}

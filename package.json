@@ -1,0 +1,20 @@
+{
+  "name": "preentrega-2-pulega",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/PatricioPulega/Entrega-Final-Coderhouse#readme",
+  "bugs": {
+    "url": "https://github.com/PatricioPulega/Entrega-Final-Coderhouse/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatricioPulega/Entrega-Final-Coderhouse.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
