@@ -16,7 +16,6 @@
 }
 
 .p {
-    display: flex;
-    flex-direction: row;
+    @include flex-row;
     justify-content: center;
 }

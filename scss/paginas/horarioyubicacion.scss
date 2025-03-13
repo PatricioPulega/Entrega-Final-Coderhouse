@@ -5,8 +5,7 @@
 }
 
 .datosLugar {
-    display: flex;
-    flex-direction: row;
+    @include flex-row;
     justify-content: center;
     align-items: center;
     padding: 10px 0;

@@ -3,6 +3,7 @@
 $colorPrimario: #000c17;
 $colorSecundario: #ffdeac;
 $colorTexto: white;
+$colorBotonHover: rgb(245, 225, 112);
 $fuentePrimaria: "DM Sans", serif;
 $fuenteSecundaria: "Playfair Display", serif;
 
@@ -12,4 +13,12 @@ $fuenteSecundaria: "Playfair Display", serif;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+@mixin flex-row {
+    display: flex;
+    flex-direction: row;
+}
+@mixin flex-column{
+    display: flex;
+    flex-direction: column;
 }

@@ -1,6 +1,5 @@
 .reservas {
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     align-items: center;
     justify-content: center;
     padding: 50px;
@@ -29,4 +28,8 @@ form button {
     display: block;
     text-align: center;
     font-family: $fuentePrimaria;
+    transition: background-color 0.5s;
+}
+form button:hover {
+    background-color: $colorBotonHover;
 }

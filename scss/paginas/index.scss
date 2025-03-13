@@ -11,8 +11,8 @@ header {
 }
 
 .navbar-nav .nav-link:hover {
-    color: $colorTexto;
-    background-color: transparent;
+    color: $colorPrimario;
+    background-color: $colorSecundario;
 }
 .carousel-item img {
     height: 60rem;
@@ -51,7 +51,6 @@ header {
     margin: 0;
     line-height: 1.5;
     font-size: 2.5rem;
-    
     text-align: center;
     color:$colorSecundario;
 }
@@ -63,8 +62,7 @@ header {
 }
 
 .footer {
-    display: flex;
-    flex-direction: row;
+    @include flex-row;
     justify-content: space-evenly;
     align-content: center;
     background-color: $colorPrimario;
@@ -72,8 +70,8 @@ header {
     margin-top: 3rem;
     font-family: $fuenteSecundaria;
     color: $colorSecundario;
-
-    ul {
+ 
+ ul {
         padding-inline-start: 0;
 
         li {
@@ -87,10 +85,19 @@ header {
         font-family: $fuentePrimaria;
         text-align: center;
     }
+    a:hover{
+       color: $colorPrimario;
+       background-color: $colorSecundario;
+
+    }
+}
+
+.redes a img:hover{
+    filter: invert(100%);
+
 }
 
 .redes, .menu, .reservas, .datosDireccion {
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     align-items: center;
 }
