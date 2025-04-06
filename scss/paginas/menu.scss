@@ -14,7 +14,10 @@
         padding: 10px;
     }
 }
-
+.contenedorMenu{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
 .p {
     @include flex-row;
     justify-content: center;
