@@ -43,13 +43,10 @@ header {
 }
 
 .contenedor {
-  max-width: 800;
-  border: 1px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-top: 10rem;
   margin-bottom: 5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .row {
@@ -60,7 +57,7 @@ header {
   margin-bottom: 10rem;
   border: 3px solid #ffdeac;
   border-radius: 20px;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .row.reverse {
@@ -72,7 +69,7 @@ header {
   width: 50%;
   height: 40%;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .descripcion {
@@ -191,7 +188,7 @@ header {
 .contenedorCard {
   display: grid;
   grid-template-columns: repeat(3, 14rem);
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
 }
 
