@@ -1,110 +1,122 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
 header {
-    background-color: $colorPrimario;
-    color: $colorTexto;
+  background-color: $colorPrimario;
+  color: $colorTexto;
 }
 .justifyContent-end {
-    justify-content: end;
+  justify-content: end;
 }
 .navbar-nav a {
-    font-family: $fuentePrimaria;
-    color: $colorTexto;
+  font-family: $fuentePrimaria;
+  color: $colorTexto;
 }
 
 .navbar-nav .nav-link:hover {
-    color: $colorPrimario;
-    background-color: $colorSecundario;
+  color: $colorPrimario;
+  background-color: $colorSecundario;
 }
-
-.titulo{
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
-.contenedor{
-    padding: 20px;
-    margin-top: 10rem;
-    margin-bottom: 5rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.titulo {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.contenedor {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
 }
 
 .row {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 50px;
-    margin-bottom: 10rem;
-    border: 3px solid $colorSecundario;
-    border-radius: 20px;
-    padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  border: 3px solid $colorSecundario;
+  border-radius: 15px;
+  padding: 1rem;
 }
-
-.row.reverse{
-    flex-direction: row-reverse;
-    margin-bottom: 10rem;
-    }
+.row.reverse {
+  flex-direction: row-reverse;
+  margin-bottom: 10rem;
+}
 
 .imagenBody {
-    width: 50%;
-    height: 40%;
-    object-fit: cover;
-    border-radius: 15px;
+  width: 45%;
+  height: 40%;
+  object-fit: cover;
+  border-radius: 7px;
+  padding: 0%;
 }
-.descripcion{
-    flex: 1;
+.descripcion {
+  flex: 1;
 }
-.descripcion p{
-    margin: 0;
-    line-height: 1.5;
-    font-size: 2rem;
-    text-align: center;
-    color:$colorSecundario;
+.descripcion p {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 2rem;
+  text-align: center;
+  color: $colorSecundario;
 }
 .frase {
-    font-family: $fuentePrimaria;
-    text-align: center;
-    font-size: 1rem;
-    color: $colorSecundario;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+  font-family: $fuentePrimaria;
+  text-align: center;
+  font-size: 1rem;
+  color: $colorSecundario;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .footer {
-    @include flex-row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: center;
-    background-color: $colorPrimario;
-    text-align: center;
-    margin-top: 3rem;
-    font-family: $fuenteSecundaria;
+  @include flex-row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  background-color: $colorPrimario;
+  text-align: center;
+  margin-top: 3rem;
+  font-family: $fuenteSecundaria;
+  color: $colorSecundario;
+
+  ul {
+    padding-inline-start: 0;
+
+    li {
+      list-style: none;
+    }
+  }
+
+  a {
+    text-decoration: none;
     color: $colorSecundario;
- 
- ul {
-        padding-inline-start: 0;
-
-        li {
-            list-style: none;
-        }
-    }
-
-    a {
-        text-decoration: none;
-        color: $colorSecundario;
-        font-family: $fuentePrimaria;
-        text-align: center;
-    }
-    a:hover{
-       color: $colorPrimario;
-       background-color: $colorSecundario;
-
-    }
+    font-family: $fuentePrimaria;
+    text-align: center;
+  }
+  a:hover {
+    color: $colorPrimario;
+    background-color: $colorSecundario;
+  }
 }
 
-.redes a img:hover{
-    filter: invert(100%);
-
+.redes a img:hover {
+  filter: invert(100%);
 }
 
-.redes, .menu, .reservas, .datosDireccion {
-    @include flex-column;
-    align-items: center;
+.redes,
+.menu,
+.reservas,
+.datosDireccion {
+  @include flex-column;
+  align-items: center;
 }
